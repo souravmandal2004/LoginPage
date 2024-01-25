@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage | Mandal</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="flex justify-center items-center flex-wrap bg-blue-400 w-[1080px] h-[900px] mx-auto ">
+        <!-- Background-image Section -->
+        <div>
+            <img class="rounded-lg shadow-2xl" src="login-bg.jpg" alt="backgound-image" loading="lazy" height="300px" width="300px">
+        </div>
+
+        <!-- Form Section -->
+        <div class="flex flex-col bg-violet-500 justify-start h-[450px] rounded-lg shadow-2xl">
+            <div class="text-white font-serif bg-gradient-to-r from-[#D9BF78] to-[#8B5CF6] text-2xl pt-2 w-80 rounded-xl text-center pb-2">Welcome back</div>
+            <div class="text-center text-[#2D1E7C] mt-11 text-xl">Login your account</div>
+            <div class="">
+                <form  class="flex flex-col justify-center items-center mt-12" action="#">
+                    <input type="email" placeholder="Username" class="border-none border-b-2 mt-1 p-2 border-gray-300 rounded-xl" required>
+                    <input type="password" placeholder="Password" class="border border-b mt-1 p-2 border-gray-300 rounded-xl" required>
+                    <button type="submit" class="transition duration-300 ease-in-out bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 text-white font-semibold py-2 px-4 rounded-full inline-flex items-center m-6">
+                        <span class="mr-2">Login</span>
+                        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                      </button>
+                      <button class="text-center underline mb-2 hover:text-[#2D1E7C]">Forgot Password?</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
